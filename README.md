@@ -89,6 +89,9 @@ git clone https://github.com/Agzs/BlockMaze.git ethereum
    cd ethereum/go-ethereum
 
    go install -v ./cmd/geth
+
+   // start geth in private testnet.
+   geth --networkid "15" --nodiscover --datadir "/home/haruto/go/src/github.com/ethereum/go-ethereum" console 2>> /home/haruto/go/src/github.com/ethereum/go-ethereum/geth_err.log
 ```
 
 ### 3. Operation
