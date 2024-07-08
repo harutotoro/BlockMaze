@@ -1,5 +1,6 @@
 # BlockMaze
 
+* push it from local blockmaze 
 * test/clique can test geth using clique consensus algorithm (PoA)
 * test/pow can run test using ethash consensus algorithm (PoW)
 * go-ethereum can build and compile geth
