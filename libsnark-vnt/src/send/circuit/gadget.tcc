@@ -222,6 +222,9 @@ public:
 
         cmtA->generate_r1cs_constraints();
         commit_to_inputs_cmt->generate_r1cs_constraints();
+
+        // Output the number of R1CS constraints to the command line
+        std::cout << "Number of R1CS constraints: " << this->pb.num_constraints() << std::endl;
     }
 
     // 证据函数，为commitment_with_add_and_less_gadget的变量生成证据

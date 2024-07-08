@@ -1,0 +1,40 @@
+eth.accounts
+eth.getBlock(0)
+eth.accounts
+miner.start()
+eth.mining
+eth.getBalance(eth.accounts[0])
+eth.sendTransaction({from: eth.accounts[0], to: eth.accounts[1], value: web3.toWei(5, "ether")})
+eth.getBalance(eth.accounts[0])
+eth.getBalance2(eth.accounts[0])
+eth.getPubKeyRLP("0x6044c69f30e5699fe6f0ee4fccbcb50b1ab11faexit7","")
+admin.nodeInfo.enode
+net.peerCount
+eth.blockNumber
+eth.sendPublicTransaction({from:eth.accounts[0],to:eth.accounts[1],value:web3.toWei(0.05, "ether")})
+eth.getBalance(eth.accounts[1])
+eth.getBalance(eth.accounts[0])
+eth.getBalance(eth.accounts[1])
+eth.accounts
+eth.sendPublicTransaction({from:eth.accounts[0],to:eth.accounts[1],value:web3.toWei(0.05, "ether")})
+eth.getBalance(eth.accounts[1])
+eth.getBalance2(eth.accounts[1])
+eth.getBalance2(eth.accounts[0])
+eth.getPubKeyRLP(eth.accounts[0],"haru0")
+eth.sendMintTransaction({from:eth.accounts[0],value:"0x1234"})
+eth.getBalance2(eth.accounts[1])
+eth,miner
+eth.mining
+miner.start()
+eth.mining
+eth.getBalance2(eth.accounts[1])
+eth.getBalance(eth.accounts[1])
+eth.sendMintTransaction({from:eth.accounts[0],value:"0x1234"})
+eth.getBlock(0)
+eth.accounts
+miner.start()
+eth.mining
+eth.blockNumber
+eth.getBalance(eth.accounts[0])
+eth.sendMintTransaction({from:eth.accounts[0],value:"0x1234"})
+eth.getTransaction("0x206b04ef4caab63bf6be5db1b8e88de9348c1592fca0d6cad5b42934d119491d")
